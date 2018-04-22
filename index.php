@@ -23,6 +23,8 @@
   $pegaso->arrancar();
   
 
+  echo "<br>Current PHP version: " . phpversion();
+
   ?>
 
 

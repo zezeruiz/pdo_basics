@@ -4,8 +4,7 @@
     var $color;
     var $motor;
 
-    function Coche(){ //Metodo constructor;
-
+    function __construct(){ //Metodo constructor;
       $this->ruedas=4;
       $this->color="";
       $this->motor=1600;
@@ -31,8 +30,8 @@
   class Camion extends Coche {
 
 
-    function Camion(){ //Metodo constructor;
-
+    function __construct(){ //Metodo constructor;
+        parent::__construct();
       $this->ruedas=8;
       $this->color="";
       $this->motor=2600;
